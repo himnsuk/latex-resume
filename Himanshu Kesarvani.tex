@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Himanshu Kesarvani
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://himanshuk.netlify.app}{\Large Himanshu Kesarvani}} & Email : \href{mailto:himanshukesarvani@outlook.com}{himanshukesarvani@outlook.com}\\
+  \href{https://himanshuk.netlify.app}{https://himanshuk.netlify.app} & Mobile : +91-7702489286 \\
+\end{tabular*}
+
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Oracle India Pvt. Ltd.}{Hyderabad, India}
+      {Data Scientist}{Apr 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Infinity}
+          {Oracle Infinity is a digital analytics platform for tracking, measuring, and optimizing the performance and visitor behavior of enterprise applications}
+          \begin{itemize}
+              \item[--] Developing Predictive User Engagement Model for enterprise applications
+              \item[--] Building model to handle historical data and click through data 
+              \item[--] Improving model response time for high traffic applications
+              \item[--] Designing KPI for measuring ML model performance
+          \end{itemize}
+
+        \resumeItem{Social Network}
+          {Oracle Infinity is a digital analytics platform for tracking, measuring, and optimizing the performance and visitor behavior of enterprise}
+          \begin{itemize}
+              \item[--] Developed Topic Modeling for social media messages for enterprises
+              \item[--] Built model to handle real-time data and providing treding topics and generate reports
+          \end{itemize}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Development Bank of Singapore}{Hyderabad, India}
+      {Analyst}{May 2017 - Mar 2019}
+      \resumeItemListStart
+        \resumeItem{Bad Debt Risk Advisor ML Model}
+          {Building predictive model to determine bad debt for bank customers}
+          \begin{itemize}
+              \item[--] Defining similarities of accounts quantitatively by using feature importance
+              \item[--] Stratification to understand characteristics of cluster
+              \item[--] Defining metrics of clusters for qualitative and quantitative features
+          \end{itemize}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Ekincare}{Hyderabad, India}
+      {Software Engineer}{Sep 2015 - May 2017}
+      \resumeItemListStart
+        \resumeItem{Ekincare Application}
+          {Integrated health benefits platform}
+          \begin{itemize}
+              \item[--] Developed model to extract information from different type of medical reports using OCR, NLTK and update user profile
+          \end{itemize}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {MAQSoftware}{Hyderabad, India}
+      {Software Engineer}{Jan 2014 - Sep 2015}
+      \resumeItemListStart
+        \resumeItem{Target Customer Segmentation}
+          {Customer Segmentation based on their purchasing behaviour}
+          \begin{itemize}
+              \item[--] Created and tested model for different type of customers for enterprise applications
+          \end{itemize}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian School of Business}{Hyderabad(TS), India}
+      {Advanced Management Programme in Business Analytics}{Feb. 2019 -- Jul. 2020}
+    \resumeSubheading
+      {Kamla Nehru Institute of Technology}{Sultanpur(UP), India}
+      {Bachelor of Technologies in Computer Science and Engineering}{Sep. 2009 -- July. 2013}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{College ISB Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{AI Chatbot(Capstone Project)}
+      {Chatbot to resolve student query and provide recommendation}
+        \begin{itemize}
+            \item[--] Developed model to find answers asked by students using video analysis and BERT model
+            \item[--] Developed Flask application and chatbot UI and itegrated the ML model and deployed to cloud
+        \end{itemize}
+    \resumeSubItem{Taxi Fare Prediction (Practicum Project)}
+      {Developed model to predict taxi fare based on Kaggle dataset}
+        \begin{itemize}
+            \item[--] Created complete report of exploratory data analysis and presented with multiple recommendation
+            \item[--] Developed model using DBSCAN clustering and got accuracy of 92\% on test data
+        \end{itemize}
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Python, Javascript, SQL, R, Scala}
+     \hfill
+     \textbf{Technologies}{: Spark, S, Kafka}
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

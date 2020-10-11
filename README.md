@@ -1,2 +1,2 @@
-# latex-resume
-Simple Resume with version control
+# Himanshu Kesarvani Resume
+
