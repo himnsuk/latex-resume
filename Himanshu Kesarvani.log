@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.22)  17 OCT 2020 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.22)  2 DEC 2020 08:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -281,7 +281,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 109.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
 
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -292,13 +292,13 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (/Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `"Himanshu Kesarvani".out' has not changed.
-(rerunfilecheck)             Checksum: EC681A03A4A4076287FB4772791CE888;197.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
+(rerunfilecheck)             Checksum: 4BB678E5D5F9EAFCE67F20A403301A27;185.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
  ) 
 Here is how much of TeX's memory you used:
  6557 strings out of 492616
@@ -309,7 +309,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  28i,11n,43p,267b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.pdf" (1 page, 91276 bytes).
+Output written on "/Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.pdf" (1 page, 91515 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
