@@ -1,9 +1,9 @@
-PWD /Users/hkesarva/HomeWork/Resume/latex-resume
+PWD /Users/hkesarva/HomeWork/A-Resume/latex-resume
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.tex
-OUTPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.log
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.tex
+OUTPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.log
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
@@ -68,23 +68,23 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.aux
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.aux
-OUTPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.aux
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.aux
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.aux
+OUTPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.aux
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
-OUTPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.pdf
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
-OUTPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
+OUTPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.pdf
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
+OUTPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -111,9 +111,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.aux
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
-INPUT /Users/hkesarva/HomeWork/Resume/latex-resume/Himanshu Kesarvani.out
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.aux
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
+INPUT /Users/hkesarva/HomeWork/A-Resume/latex-resume/Himanshu Kesarvani.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
