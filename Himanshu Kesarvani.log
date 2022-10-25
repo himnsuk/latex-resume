@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.22)  14 OCT 2022 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.22)  25 OCT 2022 16:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -287,9 +287,9 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 83.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 107.
+(Font)              <9> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 107.
+(Font)              <6> on input line 111.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -300,20 +300,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {C:/Users/himan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Himanshu Kesarvani.aux)
 Package rerunfilecheck Info: File `"Himanshu Kesarvani".out' has not changed.
-(rerunfilecheck)             Checksum: 6F6C045F2128C59E3BD7784122F92386;403.
+(rerunfilecheck)             Checksum: A99DD5D9141405C3396C292CBFF0AB66;254.
  ) 
 Here is how much of TeX's memory you used:
- 10321 strings out of 475389
- 166738 string characters out of 2777000
- 551414 words of memory out of 3000000
- 31563 multiletter control sequences out of 15000+600000
- 474500 words of font info for 48 fonts, out of 8000000 for 9000
+ 10317 strings out of 475389
+ 166697 string characters out of 2777000
+ 552414 words of memory out of 3000000
+ 31561 multiletter control sequences out of 15000+600000
+ 474163 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,319b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\himan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\himan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on "Himanshu Kesarvani.pdf" (1 page, 144940 bytes).
+ <C:\Users\himan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on "Himanshu Kesarvani.pdf" (1 page, 143019 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
