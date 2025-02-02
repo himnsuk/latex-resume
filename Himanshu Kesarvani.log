@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.27)  30 OCT 2023 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.27)  2 FEB 2025 19:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,9 +289,11 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 83.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 128.
+(Font)              <14.4> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 128.
+(Font)              <7> on input line 84.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 143.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -308,20 +310,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [2] (Himanshu Kesarvani.aux)
 Package rerunfilecheck Info: File `"Himanshu Kesarvani".out' has not changed.
-(rerunfilecheck)             Checksum: 6F6C045F2128C59E3BD7784122F92386;403.
+(rerunfilecheck)             Checksum: DA61C925C7921DC78C38C49429C94CB8;254.
  ) 
 Here is how much of TeX's memory you used:
- 10343 strings out of 476334
- 167000 string characters out of 5787971
- 1874382 words of memory out of 5000000
- 30641 multiletter control sequences out of 15000+600000
- 518220 words of font info for 55 fonts, out of 8000000 for 9000
+ 10348 strings out of 476334
+ 167073 string characters out of 5787971
+ 1872382 words of memory out of 5000000
+ 30645 multiletter control sequences out of 15000+600000
+ 519239 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,652b,789s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,652b,768s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\himan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Himanshu Kesarvani.pdf" (2 pages, 107811 bytes).
+Output written on "Himanshu Kesarvani.pdf" (2 pages, 108311 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 

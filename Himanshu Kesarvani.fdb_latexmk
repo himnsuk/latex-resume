@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1698670229 "e:/workspace/latex-resume/Himanshu Kesarvani.tex" "Himanshu Kesarvani.pdf" "Himanshu Kesarvani" 1698670231 0
-  "C:/Users/himan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1679930772 80937 91001db6d4ae332437b4b739862cda02 ""
+["pdflatex"] 1738506276 "e:/workspace/latex-resume/Himanshu Kesarvani.tex" "Himanshu Kesarvani.pdf" "Himanshu Kesarvani" 1738506277 0
+  "C:/Users/himan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1738419299 82714 c9c37d051a0c563641ee6353df77525b ""
   "C:/Users/himan/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1685277114 12668 74a725ead2ad4b1b9f4f934fc6e24b0f ""
   "C:/Users/himan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1679930634 23176374 40ef2f5cd9b5f0d8a25e1b1a933a9db6 ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1095.tfm" 993062508 1460 8005ce585ff351dff78998923504da5e ""
@@ -8,9 +8,11 @@
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136765053 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
+  "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
@@ -83,10 +85,10 @@
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1667242266 7147 be6981d9f5d866a5634048c4a11814a9 ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1667242266 7392 f19cdc68ae9f1190dbd54eee6d29fb7c ""
   "C:/Users/himan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Himanshu Kesarvani.aux" 1698670230 1067 40cc481eefa1179447b0d1783c32e60b "pdflatex"
-  "Himanshu Kesarvani.out" 1698670230 403 6f6c045f2128c59e3bd7784122f92386 "pdflatex"
-  "Himanshu Kesarvani.tex" 1687230276 11994 b7e0f4cdd7ff327585cb1ac5edaddc0b ""
-  "e:/workspace/latex-resume/Himanshu Kesarvani.tex" 1687230276 11994 b7e0f4cdd7ff327585cb1ac5edaddc0b ""
+  "Himanshu Kesarvani.aux" 1738506277 950 3e03c7d0dc610a867c244ab29e98ce28 "pdflatex"
+  "Himanshu Kesarvani.out" 1738506277 254 da61c925c7921dc78c38c49429c94cb8 "pdflatex"
+  "Himanshu Kesarvani.tex" 1738506274 12806 398cd6c5060266d9060691021619f62f ""
+  "e:/workspace/latex-resume/Himanshu Kesarvani.tex" 1738506274 12806 398cd6c5060266d9060691021619f62f ""
   (generated)
   "Himanshu Kesarvani.aux"
   "Himanshu Kesarvani.log"
