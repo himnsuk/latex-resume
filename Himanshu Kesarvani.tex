@@ -4,7 +4,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -81,11 +81,25 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://himanshuk.netlify.app}{\Large Himanshu Kesarvani}} & Email : \href{mailto:himanshukesarvani@outlook.com}{himanshukesarvani@outlook.com}\\
-  \textbf {Data Scientist} & Mobile : +91-7702489286 \\
+  \textbf{\Large\underline {\uppercase{Himanshu Kesarvani}}} & Email : \href{mailto:himanshukesarvanii@gmail.com}{himanshukesarvanii@gmail.com}\\
+  \textbf {{BI-Data Scientist}} & Mobile : +91-7702489286 \\
 \end{tabular*}
 
+%--------Professional Summary------------
+\section*{Professional Summary}
+Experienced data scientist with a strong focus on user behavior, experience, and engagement. 
+Proficient in data science and statistics, Natural Language Processing(NLP) with over 11 years 
+of overall experience, including 8 years specifically in data science. 
+Skilled in leveraging data insights to propel business growth.
 
+%--------SKILLS------------
+\section{Skills}
+\resumeSubHeadingListStart
+\item \textbf{Skills}{: Statistical Analysis, Machine Learning, Deep Learning, Visualization, NLP, Data Mining, Data Wrangling}
+\item \textbf{ML Algorithms}{: Applied a range of machine learning algorithms, including Linear Regression, Logistic Regression, Decision Tree, Ensemble Learning algorithms, K-means, and K-nearest neighbors (KNN), RoBERTa.}
+\item \textbf{Languages}{: Python, R, SQL, Spark, Qlik Sense, Power BI, MS Excel, Tableau, PyTorch}
+\item \textbf{Cloud}{: Google Cloud, Microsoft Azure}
+\resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
@@ -93,29 +107,51 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
+{HSBC}{Hyderabad, India}
+{BI-Data Scientist}{Jan 2023 - Present}
+\resumeItemListStart
+\resumeItem{Payment Review Optimization}
+{ This project focused on optimizing the operational payment review process by leveraging data collected from diverse regions and various data processing applications.}
+\begin{itemize}
+  \item[--] \textbf {Developed a Python-based automation tool} to extract critical insights from multiple applications, consolidating data for analysts. This eliminated the need to manually sift through lengthy articles and multiple screens, \textbf {reducing decision-making time from 6 minutes to 1.5 minutes}.
+  \item[--] \textbf {Built a RoBERTa-based multiclass classifier} trained on 30K+ labeled data points, enabling intelligent categorization and prioritization of information.
+  \item[--] \textbf {Optimized the process further, cutting decision time to just 35-40 seconds}, significantly improving operational efficiency, reducing queue backlog, and allowing the team to handle more cases with fewer resources.
+\end{itemize}
+\resumeItemListEnd
+
+\resumeItemListStart
+\resumeItem{Workforce Management Dashboard}
+{ The Flash MI team focuses on various areas including workforce management, handling head count, tracking multiple projects, and managing their costs.}
+\begin{itemize}
+  \item[--] Designed and implemented an intelligent tool that regularly retrieves data from various network resources, which may consist of different file types such as txt, excel, and csv. The tool processes the raw data, transforming it into a structured format, and stores it in a SQL server.
+  \item[--] Furthermore, I developed a dashboard using Qlik Sense, utilizing the stored data from SQL. This interactive dashboard presents various Key Performance Indicators (KPIs) and displays progress through visually appealing charts, including pie charts, bar charts, waterfall charts, and KPI visualizations.
+\end{itemize}
+\resumeItemListEnd
+
+\resumeSubheading
 {Oracle India Pvt. Ltd.}{Hyderabad, India}
-{Data Scientist}{Apr 2019 - Present}
+{Data Scientist}{Apr 2019 - Dec 2022}
 \resumeItemListStart
 \resumeItem{Infinity}
-{Oracle Infinity is a digital analytics platform for tracking, measuring, and optimizing the performance and visitor behavior of enterprise applications}
+{Oracle Infinity is a comprehensive digital analytics platform that specializes in tracking, measuring, and optimizing the performance and visitor behavior of enterprise applications}
 \begin{itemize}
-  \item[--] Developing Predictive User Engagement Model to identify bottleneck in the application
-  \item[--] Improving model response time for high traffic applications
+  \item[--] Developed a Predictive User Engagement Model that can effectively identify bottlenecks within the application. This model will utilize predictive analytics techniques to forecast and analyze user engagement patterns, aiming to pinpoint areas where users may encounter obstacles or experience performance limitations. By proactively identifying these bottlenecks, the model will provide valuable insights for optimizing the application and enhancing user experience.
+  \item[--] I developed a dashboard using Grafana to monitor and analyze various metrics related to the user journey in the application. This includes tracking the overall time taken by users to complete their journey, as well as the time spent on each page of the application. Additionally, metrics such as the duration of app usage, frequency of app usage, and order completion percentage are also captured. By leveraging this dashboard, we can optimize the customer journey and ensure a seamless and enhanced user experience.
 \end{itemize}
 
 \resumeItem{Doc-Bot}
 {Doc-Bot is a chatbot which help user to get question answer without going through documentation}
 \begin{itemize}
-  \item[--] Developed a NLP model using Python, BERT to answer the question regarding documentation queries
-  \item[--] Trained model with documentation data and allowed services to communicate with model
-  \item[--] Added feedback loop to alert customer service if a user doesn't find info he is looking for
+  \item[--] Developed a Natural Language Processing (NLP) model specifically designed to answer questions related to documentation queries. The model is capable of understanding and processing text-based questions and providing accurate answers based on the content of the documentation.
+  \item[--] Trained a model using documentation data, and subsequently enabled various services to communicate with the trained model. This enables the services to interact with the model, allowing them to send queries and receive responses based on the knowledge and information contained within the documentation.
+  \item[--] Implemented a feedback loop that is designed to notify customer service when a user is unable to find the information they are looking for. This feedback loop allows users to provide input or indicate their dissatisfaction when they are unable to locate the desired information. By receiving this feedback, customer service can promptly intervene and assist the user in finding the necessary information, ensuring a better user experience and addressing any potential gaps in the available documentation.
 \end{itemize}
 
 \resumeItem{Social Network}
 {Oracle Social Network is a secure private network that provides a broad range of social tools designed to capture and preserve information flowing between people, enterprise applications, and business processes.}
 \begin{itemize}
-  \item[--] Developed Topic Modeling using Python, LDA algorithm for social media messages for enterprises
-  \item[--] Built model to handle real-time data and providing trending topics and generate reports
+  \item[--] Developed a topic modeling solution specifically tailored for social media messages in an enterprise context. This solution enables the extraction and identification of underlying topics from a large volume of social media messages. By applying the LDA algorithm, the model can uncover latent patterns and themes within the messages, providing valuable insights into the prevalent topics being discussed. This topic modeling approach can be instrumental in understanding customer sentiments, identifying trends, and improving decision-making processes for enterprises.
+  \item[--] Constructed a real-time data handling model that is capable of analyzing incoming data and generating reports on trending topics. This model is designed to process data in real-time, allowing for immediate insights into the most popular and relevant topics of discussion. By leveraging this model, organizations can stay up-to-date with current trends, monitor the pulse of social media conversations, and generate reports that provide valuable information for decision-making purposes.
   \item[--] Created sentiment analysis model based on the inflow data so that service representative can address the problem understanding the sentiment
 
 \end{itemize}
@@ -125,12 +161,12 @@
 {Development Bank of Singapore}{Hyderabad, India}
 {Analyst}{May 2017 - Mar 2019}
 \resumeItemListStart
-\resumeItem{Hiring Biases}
-{Built a classifier model to find biases in the hiring process}
+\resumeItem{Addressing Hiring Biases}
+{Developed a Classifier Model for Fairer Hiring Practices}
 \begin{itemize}
-  \item[--] Created a model using Python, XGBoost algorithm to predict biases introduced by interviewer
-  \item[--] Create another model using Python, Random Forest Regressor algorithm to find candidate fitment percentage
-  \item[--] Worked with HR team to address the biases and providing equal opportunity for each candidate
+  \item[--] Developed a classifier model aimed at identifying biases within the hiring process. The model is designed to analyze various factors and patterns in hiring data to detect any potential biases that may exist. By leveraging machine learning techniques, the classifier model can flag instances where bias may be present, such as gender, ethnicity, or other protected characteristics. This helps organizations to identify and address biases, promoting a fair and inclusive hiring process.
+  \item[--] Developed Candidate Fitment Percentage Model, utilizing Python and the Random Forest Regressor Algorithm
+  \item[--] Collaborated with the HR team to proactively tackle biases and ensure equal opportunities for every candidate.
 \end{itemize}
 \resumeItemListEnd
 
@@ -141,8 +177,8 @@
 \resumeItem{Ekincare Application}
 {Integrated health benefits platform}
 \begin{itemize}
-  \item[--] Developed model to extract information from different type of medical reports using Python,OCR, NLTK
-  \item[--] Developed lifestyle recommendation system based on medical history
+  \item[--] This project involved the development of a specialized model that utilizes Python, OCR, and NLTK to effectively extract relevant information from diverse medical reports.
+  \item[--] Developed lifestyle recommendation system by leveraging medical history data of users.
 \end{itemize}
 \resumeItemListEnd
 
@@ -171,36 +207,19 @@
 {Bachelor of Technologies in Computer Science and Engineering}{Sep. 2009 -- July. 2013}
 \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------------
-\section{College ISB Projects}
-\resumeSubHeadingListStart
-\resumeSubItem{AI Chatbot(Capstone Project)}
-{Chatbot to resolve student query and provide recommendation}
-\begin{itemize}
-  \item[--] Developed model to find answers asked by students using video analysis and BERT model
-  \item[--] Developed Flask application, Chatbot UI integrated with the ML model and deployed to cloud
-\end{itemize}
-\resumeSubItem{Taxi Fare Prediction (Practicum Project)}
-{Developed model to predict taxi fare based on Kaggle dataset}
-\begin{itemize}
-  \item[--] Created complete report of exploratory data analysis and presented with multiple recommendation
-\end{itemize}
-\resumeSubHeadingListEnd
+% %-----------PROJECTS-----------------
+% \section{College ISB Projects}
+% \resumeSubHeadingListStart
+% \resumeSubItem{AI Chatbot(Capstone Project)}
+% {Student Query Resolution and Recommendation System}
+% \begin{itemize}
+%   \item[--] Designed and implemented a sophisticated model utilizing video analysis and the BERT model to accurately identify and provide answers to student queries.
+%   \item[--] Developed a Flask application with an integrated Chatbot user interface, incorporating a machine learning model. The application was successfully deployed to the cloud for seamless accessibility and usage.
+% \end{itemize}
+% \resumeSubHeadingListEnd
 
 
-%--------SKILLS------------
-\section{Skills}
-\resumeSubHeadingListStart
-\item{
-            \textbf{Skills}{: Machine Learning, Deep Learning, Visualization, Statistical Analysis, NLP, Data Mining, Data Wrangling}
-      }
-\item {
-            \textbf{Languages \& Technologies}{: Python, R, Scala, SQL, Spark, Oracle Cloud, Docker}
-      }
-\item {
-            \textbf{Libraries}{: NumPy, Pandas, scikit-learn, NLTK, Gensim, Matplotlib, Seaborn, ggplot, Shiny,  TensorFlow}
-      }
-\resumeSubHeadingListEnd
+
 
 
 %-------------------------------------------
