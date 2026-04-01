@@ -1,0 +1,180 @@
+\documentclass[10pt,a4paper]{article}
+
+% Packages for formatting
+\usepackage[left=0.6in, right=0.6in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fontawesome5} % For icons (optional, requires compiler support, text fallback used if needed)
+
+% Custom colors (Professional Blue-Grey theme)
+\definecolor{headerblue}{RGB}{20, 60, 100}
+\definecolor{textblack}{RGB}{20, 20, 20}
+
+% Font settings (Clean Sans-Serif)
+\renewcommand{\familydefault}{\sfdefault}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=headerblue,
+    filecolor=magenta,      
+    urlcolor=headerblue,
+}
+
+% Section Formatting
+\titleformat{\section}{
+  \vspace{-6pt}\bfseries\raggedright\large\color{headerblue}
+}{}{0em}{}[\color{headerblue}\titlerule \vspace{-3pt}]
+
+% Custom commands for entries
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% -----------------------------------------------------------
+% RESUME STARTS HERE
+% -----------------------------------------------------------
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Huge \bfseries \color{headerblue} Himanshu Kesarvani} \\ \vspace{4pt}
+    \textbf{Senior Data Scientist | GenAI \& AI Agent Specialist | 12 Years Experience} \\ \vspace{4pt}
+    \small 
+    \faMapMarker Bangalore, India $|$ 
+    \faPhone +91-7702489286 $|$ 
+    \faEnvelope \href{mailto:himanshukesarvanii@gmail.com}{himanshukesarvanii@gmail.com} \\
+    % \href{https://linkedin.com/in/yourprofile}{LinkedIn Profile} $|$ \href{https://github.com/yourusername}{GitHub/Portfolio}
+\end{center}
+
+% --- SUMMARY ---
+\section{Professional Summary}
+\small Results-oriented \textbf{Senior Data Scientist} with over \textbf{12 years} of hybrid experience in Software Engineering and Advanced Analytics. Expert in designing and deploying scalable \textbf{Generative AI architectures}, including \textbf{Model Context Protocol (MCP)} agents and RAG systems on \textbf{Azure}. Proven track record of bridging the gap between technical complexity and business strategy—translating raw data into revenue growth through \textbf{Predictive Modeling (XGBoost)} and \textbf{NLP}. Adept at full-stack data science: from dockerizing applications to fine-tuning LLMs and presenting insights to executive stakeholders.
+
+% --- SKILLS ---
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Generative AI \& NLP:} {: Large Language Models (GPT-4, Open Source), RAG, Model Context Protocol (MCP), Co-Pilot Integration, Prompt Engineering, RoBERTa, BERT, Topic Modeling (LDA), Sentiment Analysis.} \\
+     \textbf{Machine Learning:} {: XGBoost, Fine-tuning, Random Forest, K-Means Clustering, Logistic Regression, Ensemble Learning, Predictive Modeling, Lead Scoring.} \\
+     \textbf{Cloud \& DevOps:} {: Microsoft Azure (Web Apps, OpenAI Service), Docker, Containerization, Google Cloud Platform (GCP), CI/CD concepts.} \\
+     \textbf{Languages \& DBs:} {: Python, SQL, R, Spark, PyTorch, C\# (Basic).} \\
+     \textbf{Visualization \& BI:} {: Power BI, Tableau, Qlik Sense, Grafana, Power Apps.}
+    }}
+\end{itemize}
+
+% --- EXPERIENCE ---
+\section{Professional Experience}
+\begin{itemize}[leftmargin=0.15in, label={}]
+
+% --- M-FILES ---
+  \resumeSubheading
+      {M-Files}{Bangalore, India}
+      {Senior Data Scientist}{June 2025 -- Present}
+      \resumeItem{\textbf{Domain:} Intelligent Information Management (IIM) \& AI Automation}
+      \begin{itemize}
+        \resumeItem{\textbf{Enterprise GenAI Agent Development (MCP on Azure):}}
+          {Architected a cutting-edge \textbf{Model Context Protocol (MCP)} server deployed on \textbf{Azure Web Apps} using \textbf{Docker}. Integrated this server with \textbf{Microsoft Co-Pilot} via Power Apps to create a secure, conversational interface for internal data. This enabled non-technical staff to query the SQL Server database using plain English (powered by GPT-4), democratizing access to complex data without writing SQL queries.}
+        \resumeItem{\textbf{Revenue Optimization Engine (Lead Scoring):}}
+          {Developed a \textbf{Multiclass Classification System} to evaluate incoming sales opportunities. Fine-tuned an \textbf{XGBoost} model to classify leads into four tiers (A-D). This automated the prioritization of high-value "Class A" customers for resource investment while filtering out low-potential "Class D" leads, optimizing sales force efficiency.}
+        \resumeItem{\textbf{Customer Segmentation \& Strategy:}}
+          {Applied \textbf{K-Means Clustering} to segment the customer base into distinct behavioral groups. Communicated critical feature importance and strategic insights to the sales leadership team through comprehensive documentation and presentations, directly influencing sales targeting strategies.}
+      \end{itemize}
+
+% --- HSBC ---
+  \resumeSubheading
+      {HSBC}{Hyderabad, India}
+      {Lead Data Scientist (BI)}{Jan 2023 -- May 2025}
+      \resumeItem{\textbf{Domain:} Banking Operations \& Financial Crime Compliance}
+      \begin{itemize}
+        \resumeItem{\textbf{Payment Review Automation (NLP):}}
+          {Led the development of a \textbf{RoBERTa-based multiclass classifier}, trained on a dataset of 30,000+ labeled records. The model categorized complex payment review cases, reducing manual decision-making time from \textbf{6 minutes to 40 seconds} per case. This significantly reduced queue backlogs and increased team capacity without adding headcount.}
+        \resumeItem{\textbf{Automated Insight Extraction:}}
+          {Built a Python-based automation tool to scrape and consolidate critical insights from multiple disjointed banking applications. This eliminated manual "swivel-chair" processes for analysts, streamlining data gathering.}
+        \resumeItem{\textbf{Workforce Analytics Pipeline:}}
+          {Designed a robust ETL pipeline to ingest raw data (TXT, Excel, CSV) into SQL Server. Developed a custom \textbf{Qlik Sense Dashboard} to visualize KPIs, Headcount, and Project Costs, providing leadership with real-time operational visibility.}
+      \end{itemize}
+
+% --- ORACLE ---
+  \resumeSubheading
+      {Oracle India Pvt. Ltd.}{Hyderabad, India}
+      {Data Scientist}{Apr 2019 -- Dec 2022}
+      \resumeItem{\textbf{Domain:} Cloud Analytics \& Customer Experience (CX)}
+      \begin{itemize}
+        % \resumeItem{\textbf{Predictive User Engagement (Oracle Infinity):}}
+        %   {Built a predictive model to identify application bottlenecks and forecast user drop-off points. Created \textbf{Grafana dashboards} to track user journey metrics (time-on-page, completion rates), enabling product teams to optimize UI/UX and increase retention.}
+        \resumeItem{\textbf{Intelligent Q\&A System (Doc-Bot):}}
+          {Developed an NLP-driven chatbot capable of answering technical queries based on product documentation. Implemented a \textbf{feedback loop} where unanswered queries triggered alerts to customer support, ensuring continuous model improvement and customer satisfaction.}
+        \resumeItem{\textbf{Enterprise Social Analytics:}}
+          {Engineered a \textbf{Topic Modeling (LDA)} solution to extract latent themes from high-volume enterprise social messages. Built a real-time sentiment analysis pipeline to flag negative trends for immediate intervention by service representatives.}
+      \end{itemize}
+
+% --- DBS ---
+  \resumeSubheading
+      {Development Bank of Singapore (DBS)}{Hyderabad, India}
+      {Analyst}{May 2017 -- Mar 2019}
+      \begin{itemize}
+        \resumeItem{\textbf{Fair Hiring Algorithms:}}
+          {Developed a Machine Learning model to predict candidate "Fitment Percentage" for job applications. The model successfully identified key factors influencing hiring decisions, helping leadership mitigate unconscious bias and promote equitable recruitment practices.}
+      \end{itemize}
+
+% --- EKINCARE ---
+  \resumeSubheading
+      {Ekincare}{Hyderabad, India}
+      {Software Engineer}{Sep 2015 -- May 2017}
+      \begin{itemize}
+        \resumeItem{\textbf{Medical Data Digitization:}}
+          {Built a pipeline using \textbf{Python, OCR, and NLTK} to digitize and extract structured entities from unstructured medical reports (PDF/Images), powering the platform's digital health records feature.}
+        \resumeItem{\textbf{Recommendation Engine:}}
+          {Developed a lifestyle recommendation system based on user medical history and extracted health markers.}
+      \end{itemize}
+
+% --- MAQ SOFTWARE ---
+  \resumeSubheading
+      {MAQ Software}{Hyderabad, India}
+      {Software Engineer}{Jan 2014 -- Sep 2015}
+      \begin{itemize}
+        \resumeItem{\textbf{Customer Segmentation:}}
+          {Created segmentation models based on purchasing behavior for large-scale enterprise retail applications, aiding in targeted marketing campaigns.}
+      \end{itemize}
+
+\end{itemize}
+
+% --- EDUCATION ---
+\section{Education}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \resumeSubheading
+      {Indian School of Business (ISB)}{Hyderabad, India}
+      {Advanced Management Programme in Business Analytics (AMPBA)}{2019 -- 2020}
+  \resumeSubheading
+      {Kamla Nehru Institute of Technology (KNIT)}{Sultanpur, India}
+      {Bachelor of Technology in Computer Science and Engineering}{2009 -- 2013}
+\end{itemize}
+
+\end{document}

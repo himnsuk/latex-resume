@@ -1,0 +1,169 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+%----------FONT OPTIONS----------
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato} 
+
+%----------PAGE SETUP----------
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins - slightly relaxed to fill page naturally without looking sparse
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\topmargin}{-0.4in}
+\addtolength{\textheight}{0.8in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%----------FORMATTING COMMANDS----------
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large\color{MidnightBlue}
+}{}{0em}{}[\color{MidnightBlue}\titlerule \vspace{-4pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{1pt}} % Increased vertical space between lines slightly
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%----------------------------------------------------------------------------------------
+%	RESUME CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------HEADER----------
+\begin{center}
+    \textbf{\Huge \scshape Himanshu Kesarvani} \\ \vspace{6pt}
+    \small Senior Data Scientist $\vert$ Cloud \& AI Agent Specialist $\vert$ 12+ Years Experience \\
+    \small Bangalore, India $\vert$ +91-7702489286 $\vert$ \href{mailto:himanshukesarvanii@gmail.com}{\underline{himanshukesarvanii@gmail.com}}
+\end{center}
+
+
+%----------SUMMARY----------
+\section{Professional Summary}
+Results-oriented Senior Data Scientist with over 12 years of hybrid experience in \textbf{Software Engineering}, and \textbf{Advanced Analytics}. Expert in designing and deploying scalable Generative AI architectures and production-grade Machine Learning systems. Proven track record in \textbf{Anomaly Detection}, and \textbf{Predictive Maintenance}, bridging the gap between raw infrastructure metrics and operational resilience. Adept at full-stack data science: from containerizing applications (Docker/Kubernetes) to fine-tuning LLMs and creating automated remediation workflows. Passionate about leveraging AI to drive system reliability, capacity optimization, and revenue growth.
+
+
+%----------SKILLS----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{MLOps}{: Anomaly Detection, Time-Series Forecasting, Log Analytics (Fabric Data), Capacity Planning, Root Cause Analysis, Docker, Kubernetes, CI/CD Pipelines, Azure Monitor.} \\ \vspace{3pt}
+     \textbf{Generative AI \& NLP}{: Large Language Models (GPT-4, Open AI), RAG Architectures, Model Context Protocol (MCP), Microsoft Co-Pilot, Prompt Engineering, RoBERTa, BERT, Topic Modeling (LDA), Embeddings.} \\ \vspace{3pt}
+     \textbf{Machine Learning}{: XGBoost, Random Forest, K-Means Clustering, Logistic Regression, Isolation Forests, Ensemble Learning, Predictive Modeling, Lead Scoring, Hyperparameter Tuning.} \\ \vspace{3pt}
+     \textbf{Languages \& Frameworks}{: Python (Pandas, NumPy, Scikit-learn, PyTorch), SQL, R, Spark, C\# (Basic), TensorFlow, Hugging Face Transformers.} \\ \vspace{3pt}
+     \textbf{Cloud \& Visualization}{: Microsoft Azure (Web Apps, OpenAI Service), Google Cloud Platform (GCP), Power BI, Tableau, Qlik Sense, Grafana, Power Apps.}
+    }}
+\end{itemize}
+
+
+%----------EXPERIENCE----------
+\section{Professional Experience}
+
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {M-Files}{Bangalore, India}
+      {Senior Data Scientist -- Intelligent Information Management \& AI Automation}{June 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{Server Log Anomaly Detection (Fabric Data \& SRE):} Led a high-impact initiative to build an anomaly detection solution on large-scale server logs using \textbf{Microsoft Fabric}. Designed and implemented unsupervised models (Isolation Forests and Autoencoders) to analyze high-volume telemetry, uncovering unusual patterns in CPU, memory, and latency metrics to proactively identify and prevent potential system failures.}
+        \resumeItem{\textbf{Telemetry \& Root Cause Analysis:} Building data pipelines to correlate disparate log sources, enabling faster Root Cause Analysis (RCA) for engineering teams. The solution aims to reduce Mean Time To Detect (MTTD) by automating the identification of outliers in real-time production traffic.}
+        \resumeItem{\textbf{Enterprise GenAI Agent (MCP on Azure):} Architected a cutting-edge \textbf{Model Context Protocol (MCP)} server deployed on Azure Web Apps using Docker containers. Integrated this server with Microsoft Co-Pilot via Power Apps to create a secure, conversational interface for internal data access.}
+        \resumeItem{\textbf{Text-to-SQL Automation:} Empowered non-technical stakeholders to query complex SQL Server databases using plain English (powered by GPT-4), democratizing data access and reducing ad-hoc reporting requests by approximately 40\%.}
+        \resumeItem{\textbf{Revenue Optimization Engine:} Developed a Multiclass Classification System using \textbf{XGBoost} to evaluate incoming sales opportunities. Engineered features based on historical interaction data to classify leads into four tiers (A-D).}
+        \resumeItem{\textbf{Sales Strategy \& Segmentation:} Applied K-Means Clustering to segment the customer base into distinct behavioral groups. Communicated critical feature importance to the sales leadership team, directly influencing the strategic allocation of resources to high-ROI segments.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {HSBC}{Hyderabad, India}
+      {Data Scientist (BI) -- Banking Operations \& Financial Crime}{Jan 2023 -- May 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{Payment Review Automation (NLP):} Led the end-to-end development of a \textbf{RoBERTa-based multiclass classifier}, trained on a dataset of 30,000+ labeled records. Managed the full ML lifecycle from data annotation and cleaning to model training and deployment.}
+        \resumeItem{\textbf{Operational Efficiency Impact:} The NLP model reduced manual decision-making time from 6 minutes to 40 seconds per case. This significantly reduced queue backlogs and increased team capacity, allowing analysts to focus on high-risk financial crime investigations.}
+        \resumeItem{\textbf{Automated Insight Extraction:} Built a Python-based automation tool to scrape, parse, and consolidate critical insights from multiple disjointed banking applications. This eliminated manual "swivel-chair" processes, improving data accuracy and freshness.}
+        \resumeItem{\textbf{Workforce Analytics \& Capacity Planning:} Designed a robust ETL pipeline to ingest raw operational data (TXT, Excel, CSV) into SQL Server. Developed a custom Qlik Sense Dashboard to visualize KPIs, Headcount, and Project Costs, providing leadership with real-time data for strategic capacity planning.}
+        \resumeItem{\textbf{Mentorship \& Code Quality:} Acted as a technical lead for junior data scientists, conducting code reviews, establishing Python coding standards, and driving the adoption of Git-based version control workflows.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Oracle India Pvt. Ltd.}{Hyderabad, India}
+      {Data Scientist -- Cloud Analytics \& CX}{Apr 2019 -- Dec 2022}
+      \resumeItemListStart
+        \resumeItem{\textbf{Intelligent Q\&A System (Doc-Bot):} Developed an NLP-driven chatbot capable of answering technical queries based on product documentation. Implemented a feedback loop where unanswered queries triggered alerts to customer support, acting as a "self-healing" knowledge base.}
+        \resumeItem{\textbf{Enterprise Social Analytics:} Engineered a \textbf{Topic Modeling (LDA)} solution to extract latent themes from high-volume enterprise social messages. Used these insights to categorize user feedback automatically for product teams.}
+        \resumeItem{\textbf{Sentiment Analysis Pipeline:} Built a real-time sentiment analysis pipeline to flag negative trends for immediate intervention by service representatives, helping to mitigate churn risks.}
+        \resumeItem{\textbf{Production Deployment:} Collaborated with DevOps teams to deploy models as microservices, ensuring high availability and low latency for customer-facing applications.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Development Bank of Singapore (DBS)}{Hyderabad, India}
+      {Analyst}{May 2017 -- Mar 2019}
+      \resumeItemListStart
+        \resumeItem{\textbf{Fair Hiring Algorithms:} Developed a Machine Learning model to predict candidate "Fitment Percentage" for job applications. Analyzed historical hiring data to identify key success factors.}
+        \resumeItem{\textbf{Bias Mitigation:} The model successfully identified and highlighted key factors influencing hiring decisions, helping leadership mitigate unconscious bias and promote equitable recruitment practices.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Ekincare}{Hyderabad, India}
+      {Software Engineer}{Sep 2015 -- May 2017}
+      \resumeItemListStart
+        \resumeItem{\textbf{Medical Data Digitization (OCR/NLP):} Built a complex pipeline using Python, Tesseract OCR, and NLTK to digitize and extract structured entities from unstructured medical reports (PDF/Images), powering the platform's digital health records.}
+        \resumeItem{\textbf{Recommendation Engine:} Developed a personalized lifestyle recommendation system based on user medical history, bridging the gap between raw health data and actionable wellness advice.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {MAQ Software}{Hyderabad, India}
+      {Software Engineer}{Jan 2014 -- Sep 2015}
+      \resumeItemListStart
+        \resumeItem{\textbf{Customer Segmentation Models:} Created segmentation models based on purchasing behavior for large-scale enterprise retail applications. Analyzed transactional data to support targeted marketing campaigns.}
+        \resumeItem{\textbf{Data Visualization:} Developed interactive dashboards to track campaign performance and customer engagement metrics.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------EDUCATION----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian School of Business (ISB)}{Hyderabad, India}
+      {Advanced Management Programme in Business Analytics (AMPBA)}{2019 -- 2020}
+    \resumeSubheading
+      {Kamla Nehru Institute of Technology (KNIT)}{Sultanpur, India}
+      {Bachelor of Technology in Computer Science and Engineering}{2009 -- 2013}
+\resumeSubHeadingListEnd
+
+\end{document}
